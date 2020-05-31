@@ -28,5 +28,6 @@ Here are some images:
 3)output of gem1 in the cornell box  
 ![](gem1MIS.png)  
 
-you may notice that the shadow is wrong, which is due to the old shadow testing method, this will be fixed with caustic rendering if time is allowed.The next part will be to get disperion working with spectural rendering.
+From the picture you can also see a tiny bit of caustic forming.
+The next part will be to get disperion working with spectural rendering.
 
