@@ -12,7 +12,7 @@ Here are some paper that are related to the topics:
 I downloaded a free obj file from cgtrader by author alexmit:
 https://www.cgtrader.com/free-3d-models/various/various-models/gem-stones-pack-0c0ca99b-b144-4866-8e34-306999076d06
 Here is the gem obj file preview:
-  ![gems wireframe]("./gem_wire.jpg")
+  ![gems wireframe](/logo.png)
   
 ## Welcome to GitHub Pages
 
