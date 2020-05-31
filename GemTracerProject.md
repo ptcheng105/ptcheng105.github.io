@@ -22,10 +22,10 @@ I used the Fresnel equation and a random number to decide whether to sample the 
 Here are some images:
 
 1)A normal Map for the testing gem1  
-![gem normal](gem1_normalmap.png)
+![gem normal](gem1_normalmap.png)  
 2)Using old cornell scene to make sense of my code  
-![](cornellrefract.png)
+![](cornellrefract.png)  
 3)output of gem1 in the cornell box  
-![](gem1MIS.png)
+![](gem1MIS.png)  
 
 
