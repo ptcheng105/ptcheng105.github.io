@@ -1,7 +1,7 @@
 # CSE 168 final project: GemTracer
 ## Author Name: Pui Tim Cheng
 
-In this final project, I am planning to render a picture of different type of gem stones, which will include the topics of specular transmission, volumetric rendering, and perhaps light dispersion to finish it up. 
+In this final project, I am planning to render a picture of different type of gem stones, which will include the topics of specular transmission, attenuation, andlight dispersion.
 
 Here are some paper that are related to the topics:
 1. Production Volume Rendering SIGGRAPH 2017 Course: https://graphics.pixar.com/library/ProductionVolumeRendering/paper.pdf
@@ -12,7 +12,8 @@ Here are some paper that are related to the topics:
 I downloaded a free obj file from cgtrader by author alexmit:
 https://www.cgtrader.com/free-3d-models/various/various-models/gem-stones-pack-0c0ca99b-b144-4866-8e34-306999076d06
 Here is the gem obj file preview:
-  ![Image](src)
+  ![gems wireframe]("./gem_wire.jpg")
+  
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ptcheng105/ptcheng105.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
