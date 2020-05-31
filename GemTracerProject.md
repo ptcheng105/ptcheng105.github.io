@@ -21,8 +21,11 @@ for the first part I have added transmittion to the ray tracer with the help of 
 I used the Fresnel equation and a random number to decide whether to sample the reflection or refractive part when a surface is hit.
 Here are some images:
 
-1)![A normal Map for the testing gem1](gem1_normalmap.png)
-2)![Using old cornell scene to make sense of my code](cornellrefract.png)
-2)![output of gem1 in the cornell box](gem1MIS.png)
+1)A normal Map for the testing gem1
+![gem normal](gem1_normalmap.png)
+2)Using old cornell scene to make sense of my code
+![](cornellrefract.png)
+3)output of gem1 in the cornell box
+![](gem1MIS.png)
 
 
