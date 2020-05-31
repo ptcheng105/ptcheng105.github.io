@@ -13,41 +13,21 @@ I downloaded a free obj file from cgtrader by author alexmit:
 https://www.cgtrader.com/free-3d-models/various/various-models/gem-stones-pack-0c0ca99b-b144-4866-8e34-306999076d06
 Here is the gem obj file preview:
   ![gems wireframe](/gem_wire.jpg)
-  
-## Welcome to GitHub Pages
+ 
 
-You can use the [editor on GitHub](https://github.com/ptcheng105/ptcheng105.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Part1: getting transmittion and make .obj file compatible
+for the first part I have added transmittion to the ray tracer with the help of this [website](http://www.pbr-book.org/3ed-2018/Reflection_Models/Specular_Reflection_and_Transmission.html#fragment-Computeraydirectionforspeculartransmission-0) and added more function to the SceneLoader in order to load the gems vertices data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I used the Fresnel equation and a random number to decide whether to sample the reflection or refractive part when a surface is hit.
+Here are some images:
 
-### Markdown
+1)A normal Map for the testing gem1  
+![gem normal](gem1_normalmap.png)  
+2)Using old cornell scene to make sense of my code  
+![](cornellrefract.png)  
+3)output of gem1 in the cornell box  
+![](gem1MIS.png)  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+From the picture you can also see a tiny bit of caustic forming.
+The next part will be to get disperion working with spectural rendering.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ptcheng105/ptcheng105.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
