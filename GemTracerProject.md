@@ -23,10 +23,11 @@ Here are some images:
 
 1)A normal Map for the testing gem1  
 ![gem normal](gem1_normalmap.png)  
-2)Using old cornell scene to make sense of my code  
-![](cornellrefract.png)  
-3)output of gem1 in the cornell box  
+2)Using old cornell scene to make sense of my code  (ggx model)
+![](cornellrefractggx.png)  
+3)output of gem1 in the cornell box  (phong model and ggx model)
 ![](gem1MIS.png)  
+![](gem1ggx.png)  
 
 From the picture you can also see a tiny bit of caustic forming.
 The next part will be to get disperion working with spectural rendering.
