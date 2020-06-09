@@ -30,5 +30,13 @@ Here are some images:
 ![](gem1ggx.png)  
 
 From the picture you can also see a tiny bit of caustic forming.
-The next part will be to get disperion working with spectural rendering.
+
+### Part2: adding attenuation
+I added absorption index for each of the gem to give them color and also attenuation affect
+here are the result:
+![allgems_h7](allgems_h7.png)  
+
+and this picture give a better view of attenuation and caustics
+![allgems_test](allgems_test.png)  
+
 
